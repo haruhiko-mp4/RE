@@ -1,0 +1,12 @@
+{
+  "name": "RE",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "指定ページから別指定ページへのリダイレクト",  
+  "permissions": ["tabs", "webNavigation"],
+  "content_scripts": [
+    {"matches": ["https://example.com/*", "https://google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
