@@ -1,6 +1,6 @@
 ## RE - REdirecter
 指定ページから別指定ページへのリダイレクトを行うchrome拡張機能です。  
-デフォルトではexample.comからgoogle.comへのリダイレクトを行うようになっております。  
+デフォルトではexample.comからgoogle.comへのリダイレクトを行うようになっています。  
 コードエディタから「manifest.json」「content.js」内のURLを編集してお使い下さい。
 
 ## 導入方法
